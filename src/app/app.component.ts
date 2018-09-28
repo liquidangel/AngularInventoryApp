@@ -14,7 +14,7 @@ export class AppComponent {
         'MYSHOES',
         'Black Running Shoes',
         '/assets/images/products/black-shoes.jpg',
-        ['Men', 'Apparel', 'Running Shoes'],
+        ['Men', 'Shoes', 'Running Shoes'],
         109.99
       ),
       new Product(

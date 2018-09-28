@@ -7,11 +7,5 @@ import { Product } from '../product.model';
 })
 export class ProductRowComponent {
   @Input() product: Product;
-  @HostBinding('attr.class') cssClass = "item";
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  @HostBinding('attr.class') cssClass = 'item';
 }

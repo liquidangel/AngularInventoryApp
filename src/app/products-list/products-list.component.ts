@@ -23,7 +23,7 @@ export class ProductsListComponent {
     if(!product || !this.currentProduct) {
       return false;
     }
-    return product.sku == this.currentProduct.sku;
+    return product.sku === this.currentProduct.sku;
   }
 
 }
